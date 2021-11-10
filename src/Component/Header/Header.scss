@@ -86,13 +86,15 @@
         }
     }
     nav{
+        background-color: #fff;
         height: 70px;
         position: absolute;
+        display: block;
         width: 100%;
         display: flex;
         justify-content: space-between;
         .menu-navigation{
-            .ant-btn{
+            .ant-btn{   
                 font-size: large;
                 font-weight: bold;
                 height: 70px;

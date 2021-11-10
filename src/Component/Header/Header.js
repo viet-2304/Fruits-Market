@@ -1,8 +1,8 @@
-import React from "react"
+import React,{useState} from "react"
 import logo from "../../asset/logo.png"
 import "./Header.scss"
 import 'antd/dist/antd.css'
-import { Input,Menu, Image, Select,Dropdown,Button} from 'antd'
+import { Input,Menu, Image, Select,Dropdown,Button,Affix} from 'antd'
 import {PhoneOutlined,QuestionOutlined,UserOutlined ,HeartOutlined,DownOutlined,ShoppingOutlined} from '@ant-design/icons'
 const {Search}= Input
 const {Option}=Select
@@ -42,6 +42,7 @@ const blog=(<Menu>
 </Menu>)
 
 function Header(){
+    const [top] = useState();
     return(
         <div className="header">
             <div className="header-content">      
@@ -70,7 +71,8 @@ function Header(){
                         <li className="user"><UserOutlined/></li>
                     </ul>
                 </div>
-            </div>   
+            </div>
+            <Affix offsetTop={top}>   
             <nav>
                 <div className="menu-navigation">
                     <Dropdown overlay={home} placement="bottomCenter">
@@ -97,6 +99,7 @@ function Header(){
                     <ShoppingOutlined />
                 </div>
             </nav>  
+            </Affix>
        </div>
     )  
 }
