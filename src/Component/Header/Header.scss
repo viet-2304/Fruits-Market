@@ -85,4 +85,29 @@
             }
         }
     }
+    nav{
+        height: 70px;
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .menu-navigation{
+            .ant-btn{
+                font-size: large;
+                font-weight: bold;
+                height: 70px;
+                border: none;
+            }
+        }
+        .icon-shopping{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            margin-right: 25px;
+            .anticon-shopping{
+                font-size: xx-large;
+            }
+        }
+       
+    }
 }
