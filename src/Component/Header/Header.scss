@@ -1,72 +1,88 @@
-.header-content{
-    height: 90px;
-    background-color: #d9d8d88c;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    
-    .select-search{
-        height: 50px;
-        width: 600px;
-        display:flex;
-        margin-left: 20px;
-
-        .select{
-            background: #f8f8f8;
-            width: 170px;
-            text-align: center;
-            font-size: medium;
-            border: 2px solid #eee;
-           
-        }     
-
-        .ant-input-group{    
-            display: flex;
-            border: 2px solid #eee;
-
-            .ant-input{
-                width: 350px;
-                background-color: #f8f8f8;
-            }
-
-            .ant-input-search-button{
-                height: 50px;
-                width: 50px;
-            }                  
-        }
-    }
-
-    .header-right{
-        height: 100%;
+.header{
+    .header-content{
+        height: 90px;
+        background-color: #d9d8d88c;
         display: flex;
         align-items: center;
-        flex-direction: row;
+        justify-content: space-between;
+         
+        .header-center{
+            width: 33%;
+            display: flex;
+            align-items: center;
+            margin-right: 100px;
 
-        .anticon{
-            font-size: x-large;       
-        }
-        
-        .phone{
-            display: inline-block;
-            margin-right: 20px;
-        }
+            .ant-select-show-arrow{
+                border: 2px solid;
+                margin-top: 2px;
+                height: 50px;
 
-        .help{
-            display:inline-block ;
-            margin-right: 30px;
+                .ant-select-selector{
+                    width: 200px;
+                    height: 45px;
+                    background-color: #f8f8f8;
+                    font-size: large;
+                }
+                             
+                .ant-select-selection-item{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+         
+            .ant-input-search{
+
+                .ant-input-group{    
+                    display: flex;
+                    border: 2px solid #eee;
+                    width: 300px;
+    
+                    .ant-input{
+                        background-color: #f8f8f8;
+                    }
+    
+                    .ant-input-search-button{
+                        height: 50px;
+                        width: 50px;
+                    }                  
+                }
+            }
             
+        
         }
-        .like{
-            display: inline-block;
-            margin-right: 30px;
-            .anticon-question{
-                color: blue;
-             }
-        }
-        .user{
-            display:inline-block ;
-            margin-right: 20px;
+
+        .header-right{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            width: 33%;
+
+            .anticon{
+                font-size: x-large;       
+            }
+    
+            .phone{
+                display: inline-block;
+                margin-right: 20px;
+            }
+
+            .help{
+                display:inline-block ;
+                margin-right: 30px;
+                
+            }
+
+            .like{
+                display: inline-block;
+                margin-right: 30px;
+            }
+
+            .user{
+                display:inline-block ;
+                margin-right: 20px;
+            }
         }
     }
 }
