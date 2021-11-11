@@ -1,0 +1,115 @@
+.header{
+    .header-content{
+        height: 90px;
+        background-color: #d9d8d88c;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+         
+        .header-center{
+            width: 33%;
+            display: flex;
+            align-items: center;
+            margin-right: 100px;
+
+            .ant-select-show-arrow{
+                border: 2px solid;
+                margin-top: 2px;
+                height: 50px;
+
+                .ant-select-selector{
+                    width: 200px;
+                    height: 45px;
+                    background-color: #f8f8f8;
+                    font-size: large;
+                }
+                             
+                .ant-select-selection-item{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+         
+            .ant-input-search{
+
+                .ant-input-group{    
+                    display: flex;
+                    border: 2px solid #eee;
+                    width: 300px;
+    
+                    .ant-input{
+                        background-color: #f8f8f8;
+                    }
+    
+                    .ant-input-search-button{
+                        height: 50px;
+                        width: 50px;
+                    }                  
+                }
+            }
+            
+        
+        }
+
+        .header-right{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            width: 33%;
+
+            .anticon{
+                font-size: x-large;       
+            }
+    
+            .phone{
+                display: inline-block;
+                margin-right: 20px;
+            }
+
+            .help{
+                display:inline-block ;
+                margin-right: 30px;
+                
+            }
+
+            .like{
+                display: inline-block;
+                margin-right: 30px;
+            }
+
+            .user{
+                display:inline-block ;
+                margin-right: 20px;
+            }
+        }
+    }
+    nav{
+        background-color: #fff;
+        height: 70px;
+        position: absolute;
+        display: block;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .menu-navigation{
+            .ant-btn{   
+                font-size: large;
+                font-weight: bold;
+                height: 70px;
+                border: none;
+            }
+        }
+        .icon-shopping{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            margin-right: 25px;
+            .anticon-shopping{
+                font-size: xx-large;
+            }
+        }
+       
+    }
+}
