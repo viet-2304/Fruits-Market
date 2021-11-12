@@ -140,8 +140,7 @@
                     .ant-image-img {
                         border-radius: 50%;
                     }   
-                }
-                
+                }     
             }
         }
     }
@@ -228,6 +227,57 @@
                 }   
             }           
         }    
+    }
+
+    .timer-contains {
+        display: flex;
+        justify-content: space-around;
+        height: 450px;
+        margin: 0 15px 0 15px;
+
+        .timer-picture {
+            width: 50%;
+            
+            .ant-image-img {
+                width: 100%;
+            }
+        }
+
+        .timer-description {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+
+            .timer-title{
+                margin-left: 30px;
+                font-size: large;
+                color: #679509;
+                font-weight: 500;
+            }
+
+            .timer-subtitle {
+                margin-left: 30px;
+                font-size: 60px;
+                font-weight: bold;
+            }
+
+            .timer-countdown {
+                height: 130px;
+            }
+
+            .timer-button {
+                margin: 40px 0 0 30px;
+                height: 50px;
+             
+                .ant-btn {
+                    width: 30%;
+                    height: 100%;
+                    background: #679509;
+                    font-size: large;
+                    font-weight: bold;
+                }
+            }
+        }
     }
 }
 

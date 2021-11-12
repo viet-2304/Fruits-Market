@@ -1,5 +1,6 @@
 import React from "react"
 import "./Body.scss"
+import Countdown from "./countdown/Countdown"
 import 'antd/dist/antd.css'
 import image1 from "../../asset/Xoai.jpg"
 import image2 from "../../asset/hanhtay.jpg"
@@ -16,6 +17,7 @@ import product8 from "../../asset/apple.jpg"
 import category1 from "../../asset/vegetable.jpg"
 import category2 from "../../asset/fruits.jpg"
 import category4 from "../../asset/meat.jpg"
+import timer_background from "../../asset/timer-picture.jpg"
 
 import { Button, Image } from 'antd'
 import { StarFilled, StarOutlined } from '@ant-design/icons'
@@ -324,6 +326,32 @@ function Body() {
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div className="timer-contains">
+                <div className="timer-picture">
+                    <Image src={timer_background} preview={false}/>
+                </div>
+
+                <div className="timer-description">
+                    <div className="timer-title">
+                        TODAYS HOT DEALS
+                    </div>
+
+                    <div className="timer-subtitle">
+                        All product sale off 50%
+                    </div>
+
+                    <div className="timer-countdown">
+                        <Countdown/>
+                    </div>
+
+                    <div className="timer-button">
+                        <Button>Shop now</Button>
+                    </div>
+                    
+                </div>
+                
             </div>
         </div>       
     ) 
