@@ -13,6 +13,10 @@ import product5 from "../../asset/guava.jpg"
 import product6 from "../../asset/banana.jpg"
 import product7 from "../../asset/mango.jpg"
 import product8 from "../../asset/apple.jpg"
+import category1 from "../../asset/vegetable.jpg"
+import category2 from "../../asset/fruits.jpg"
+import category4 from "../../asset/meat.jpg"
+
 import { Button, Image } from 'antd'
 import { StarFilled, StarOutlined } from '@ant-design/icons'
 
@@ -52,12 +56,69 @@ function Body() {
                 </div>        
             </div>
 
+            <div className="category-contains">
+                <div className="category-text">
+                    Shop By Category
+                </div>
+
+                <div className="category-subitem">
+                    <div className="category-item">
+                        <div className="category-image"> 
+                            <Image src={category1} preview={false}/>
+                        </div>
+                        <div className="category-name">
+                            Vegetable
+                        </div>
+                    </div>
+
+                    <div className="category-item">
+                        <div className="category-image"> 
+                            <Image src={category2} preview={false}/>
+                        </div>
+
+                        <div className="category-name">
+                            Fruits
+                        </div>
+                    </div>
+
+                    <div className="category-item">
+                        <div className="category-image"> 
+                            <Image src={category4} preview={false}/>
+                        </div>
+
+                        <div className="category-name">
+                            Seafood
+                        </div>
+                    </div>
+
+                    <div className="category-item">
+                        <div className="category-image"> 
+                            <Image src={category4} preview={false}/>
+                        </div>
+
+                        <div className="category-name">
+                            Meat
+                        </div>
+                    </div>
+
+                    <div className="category-item">
+                        <div className="category-image"> 
+                            <Image src={category1} preview={false}/>
+                        </div>
+
+                        <div className="category-name">
+                            Healthy Product
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div className="body-contains">
                 <div className="body-contains-text">
                     Vegetables
                 </div>
 
-                <div className="body-product-contains">
+                <div className="product-contains">
                     <div className="product-item">
                         <div className="product-image"> 
                             <Image src={product1} preview={false}/>
@@ -164,7 +225,7 @@ function Body() {
                     Fruits
                 </div>
 
-                <div className="body-product-contains">
+                <div className="product-contains">
                     <div className="product-item">
                         <div className="product-image"> 
                             <Image src={product5} preview={false}/>
