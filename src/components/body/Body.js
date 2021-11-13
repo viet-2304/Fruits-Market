@@ -115,12 +115,12 @@ function Body() {
                 </div>
             </div>
 
-            <div className="body-contains">
-                <div className="body-contains-text">
+            <div className="product-contains">
+                <div className="product-contains-text">
                     Vegetables
                 </div>
 
-                <div className="product-contains">
+                <div className="product-subitem">
                     <div className="product-item">
                         <div className="product-image"> 
                             <Image src={product1} preview={false}/>
@@ -222,12 +222,12 @@ function Body() {
                 </div>
             </div>
 
-            <div className="body-contains">
-                <div className="body-contains-text">
+            <div className="product-contains">
+                <div className="product-contains-text">
                     Fruits
                 </div>
 
-                <div className="product-contains">
+                <div className="product-subitem">
                     <div className="product-item">
                         <div className="product-image"> 
                             <Image src={product5} preview={false}/>

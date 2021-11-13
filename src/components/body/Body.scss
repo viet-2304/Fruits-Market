@@ -9,7 +9,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-between; 
 
         .body-top-left {
             margin-left: 50px;
@@ -94,24 +94,23 @@
             justify-content: center;
             font-size: 30px;
             font-weight: 700;
-        }
-
-        .category-text::before {
-            content: "";
-            margin: 25px 10px 0 0;
-            width: 70px;
-            height: 3px;
-            background: #679509; 
-        }
-
-        .category-text::after {
+            &::before {
+                content: "";
+                margin: 25px 10px 0 0;
+                width: 70px;
+                height: 3px;
+                background: #679509; 
+            }
+            
+            &::after {
             content: "";
             margin: 25px 0 0 10px;
             width: 70px;
             height: 3px;
             background: #679509;  
+            }
         }
-
+        
         .category-subitem {
             display: flex;
             justify-content: space-around;
@@ -145,34 +144,33 @@
         }
     }
 
-    .body-contains {
+    .product-contains {
         height: 500px;
         margin-bottom: 50px;
 
-        .body-contains-text {
+        .product-contains-text {
             display: flex;
             justify-content: center;
             font-size: 30px;
             font-weight: 700;
+            &::before {
+                content: "";
+                margin: 25px 10px 0 0;
+                width: 70px;
+                height: 3px;
+                background: #679509;      
+            }
+
+            &::after {
+                content: "";
+                margin: 25px 0 0 10px;
+                width: 70px;
+                height: 3px;
+                background: #679509;        
+            }
         }
 
-        .body-contains-text::before {
-            content: "";
-            margin: 25px 10px 0 0;
-            width: 70px;
-            height: 3px;
-            background: #679509;      
-        }
-
-        .body-contains-text::after {
-            content: "";
-            margin: 25px 0 0 10px;
-            width: 70px;
-            height: 3px;
-            background: #679509;        
-        }
-
-        .product-contains {
+        .product-subitem {
             display: flex;
             justify-content: space-around;
             margin: 50px 0;
