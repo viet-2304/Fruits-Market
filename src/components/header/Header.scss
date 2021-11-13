@@ -1,48 +1,52 @@
-.header{
-    .header-content{
+.header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+
+    .header-content {
         height: 90px;
         background-color: #d9d8d88c;
         display: flex;
         align-items: center;
         justify-content: space-between;
          
-        .header-center{
+        .header-center {
             width: 33%;
             display: flex;
             align-items: center;
             margin-right: 100px;
 
-            .ant-select-show-arrow{
+            .ant-select-show-arrow {
                 border: 2px solid;
                 margin-top: 2px;
                 height: 50px;
 
-                .ant-select-selector{
+                .ant-select-selector {
                     width: 200px;
                     height: 45px;
                     background-color: #f8f8f8;
                     font-size: large;
                 }
                              
-                .ant-select-selection-item{
+                .ant-select-selection-item {
                     display: flex;
                     justify-content: center;
                     align-items: center;
                 }
             }
          
-            .ant-input-search{
+            .ant-input-search {
 
-                .ant-input-group{    
+                .ant-input-group {    
                     display: flex;
                     border: 2px solid #eee;
                     width: 300px;
     
-                    .ant-input{
+                    .ant-input {
                         background-color: #f8f8f8;
                     }
     
-                    .ant-input-search-button{
+                    .ant-input-search-button {
                         height: 50px;
                         width: 50px;
                     }                  
@@ -52,40 +56,40 @@
         
         }
 
-        .header-right{
+        .header-right {
             height: 100%;
             display: flex;
             align-items: center;
             flex-direction: row;
             width: 33%;
 
-            .anticon{
+            .anticon {
                 font-size: x-large;       
             }
     
-            .phone{
+            .phone {
                 display: inline-block;
                 margin-right: 20px;
             }
 
-            .help{
+            .help {
                 display:inline-block ;
                 margin-right: 30px;
                 
             }
 
-            .like{
+            .like {
                 display: inline-block;
                 margin-right: 30px;
             }
 
-            .user{
+            .user {
                 display:inline-block ;
                 margin-right: 20px;
             }
         }
     }
-    nav{
+    nav {
         background-color: #fff;
         height: 70px;
         position: absolute;
@@ -93,23 +97,25 @@
         width: 100%;
         display: flex;
         justify-content: space-between;
-        .menu-navigation{
-            .ant-btn{   
+
+        .menu-navigation { 
+            
+            .ant-btn {   
                 font-size: large;
                 font-weight: bold;
                 height: 70px;
                 border: none;
             }
         }
-        .icon-shopping{
+        .icon-shopping {
             display: flex;
             align-items: center;
             justify-content: flex-end;
             margin-right: 25px;
-            .anticon-shopping{
+            
+            .anticon-shopping {
                 font-size: xx-large;
             }
-        }
-       
+        }  
     }
 }
