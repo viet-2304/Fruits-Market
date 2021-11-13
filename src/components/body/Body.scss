@@ -458,6 +458,67 @@
             width: 25%;
         }
     }
+
+    .email-banner{
+        height: 200px;
+        background-color: #1E1D24;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .email-description {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            .email-icon {
+                margin-left: 30px;
+            }
+            .email-text {
+                display: flex;
+                flex-direction: column;
+                margin-left: 10px;
+                h1 {
+                    color: #fff;
+                    font-size: xx-large;
+                    font-weight: bold;
+                    height: 30px;
+                }
+                p {
+                    color: #fff;
+                    font-size: medium;
+                    font-weight: 500;
+                }
+            }
+        }
+        .submit-email {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            margin-right: 30px;
+
+            .ant-input {
+                height: 60px;
+                width: 500px;
+                text-align: center;
+                font-size: large;
+            }
+
+            .ant-btn {
+                height: 60px;
+                background-color: #679509;
+                border: #679509;
+                font-size: medium;
+                font-weight: bold;
+
+                &:hover {
+                    color: #fff;
+                    background-color: #3b5702;
+                    border: #3b5702;
+                }
+            }
+        }
+    }
 }
 
 .anticon-star {

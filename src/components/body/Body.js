@@ -19,8 +19,8 @@ import category2 from "../../asset/fruits.jpg"
 import category4 from "../../asset/meat.jpg"
 import timer_background from "../../asset/timer-picture.jpg"
 import contact_picture from  "../../asset/contact-picture.png"
-
-import { Button, Image } from 'antd'
+import email from "../../asset/email.png"
+import { Button, Image, Form, Input } from 'antd'
 import { StarFilled, StarOutlined } from '@ant-design/icons'
 
 function Body() {
@@ -699,6 +699,27 @@ function Body() {
                 <div className="contact-picture">
                     <Image src={contact_picture} preview={false}/>
                 </div>   
+            </div>
+
+            <div className="email-banner">
+                <div className="email-description">
+                    <div className="email-icon">
+                        <Image src={email} preview={false}/>
+                    </div>
+                    <div className="email-text">
+                            <h1>Newsletter</h1>
+                            <p>Subsribe here for get every single updates</p>
+                    </div>
+                </div>
+                <div className="submit-email">
+                    <div className="input-email">
+                        <Input placeholder="ENTER YOUR EMAIL ADDRESS"></Input>
+                    </div>
+
+                    <div className="button-submit">
+                        <Button>SUBSCRIBE NOW</Button>
+                    </div>          
+                </div>
             </div>
         </div>       
     ) 
