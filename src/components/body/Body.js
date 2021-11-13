@@ -20,8 +20,8 @@ import category4 from "../../asset/meat.jpg"
 import timer_background from "../../asset/timer-picture.jpg"
 import contact_picture from  "../../asset/contact-picture.png"
 import email from "../../asset/email.png"
-import { Button, Image, Form, Input } from 'antd'
-import { StarFilled, StarOutlined } from '@ant-design/icons'
+import { Button, Image, Input } from 'antd'
+import { StarFilled, StarOutlined } from '@ant-design/icons'    
 
 function Body() {
     return(
