@@ -18,6 +18,7 @@ import category1 from "../../asset/vegetable.jpg"
 import category2 from "../../asset/fruits.jpg"
 import category4 from "../../asset/meat.jpg"
 import timer_background from "../../asset/timer-picture.jpg"
+import contact_picture from  "../../asset/contact-picture.png"
 
 import { Button, Image } from 'antd'
 import { StarFilled, StarOutlined } from '@ant-design/icons'
@@ -685,6 +686,20 @@ function Body() {
                 </div>
             </div>
 
+            <div className="contact">   
+                <div className="contact-description">
+                    <h3>CONTACT WITH US NOW</h3>
+                    <h1>039 713 2163</h1>
+                    <div className="contact-button">
+                        <Button>MAKE A CALL</Button>
+                        <Button>CONTACT US</Button>
+                    </div>
+                </div>
+
+                <div className="contact-picture">
+                    <Image src={contact_picture} preview={false}/>
+                </div>   
+            </div>
         </div>       
     ) 
 }
