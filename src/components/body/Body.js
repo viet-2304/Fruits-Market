@@ -202,7 +202,7 @@ function Body() {
 
                         <div className="product-infor">
                             <div className="ratting"> 
-                                <StarFilled />
+                            <StarFilled />
                                 <StarFilled />
                                 <StarFilled />
                                 <StarFilled />
@@ -353,6 +353,338 @@ function Body() {
                 </div>
                 
             </div>
+
+            <div className="list-product-contains">
+                <div className="list-product-subitem">
+                    <div className="title">
+                            Best Selling
+                    </div>
+                    
+                    <div className="list-product-item"> 
+                        <div className="product-item">
+                            <div className="product-image">
+                                <Image src={product1} preview={false}/>
+                            </div>
+                            
+                            <div className="product-description">
+                                <div className="product-name">
+                                    product name
+                                </div> 
+                                
+                                <div className="product-ratting">
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarOutlined />
+                                </div>
+                                    
+                                <div className="product-price">
+                                    200.000
+                                    <del>300.000</del>
+                                </div>
+                            </div>
+                        </div>
+
+                            <div className="product-item">
+                            <div className="product-image">
+                                <Image src={product1} preview={false}/>
+                            </div>
+                            
+                            <div className="product-description">
+                                <div className="product-name">
+                                    product name
+                                </div> 
+                                <div className="product-ratting">
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarOutlined />
+                                </div>
+                                
+                                <div className="product-price">
+                                    200.000
+                                    <del>300.000</del>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="product-item">
+                            <div className="product-image">
+                                <Image src={product1} preview={false}/>
+                            </div>
+                            
+                            <div className="product-description">
+                                <div className="product-name">
+                                    product name
+                                </div> 
+                                <div className="product-ratting">
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarOutlined />
+                                </div>
+                                
+                                <div className="product-price">
+                                    200.000
+                                    <del>300.000</del>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="product-item">
+                            <div className="product-image">
+                                <Image src={product1} preview={false}/>
+                            </div>
+                            
+                            <div className="product-description">
+                                <div className="product-name">
+                                    product name
+                                </div> 
+                                <div className="product-ratting">
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarOutlined />
+                                </div>
+                                
+                                <div className="product-price">
+                                    200.000
+                                    <del>300.000</del>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="list-product-subitem">
+                    <div className="title">
+                            Best Selling
+                    </div>
+                    <div className="list-product-item"> 
+                        <div className="product-item">
+                            <div className="product-image">
+                                <Image src={product1} preview={false}/>
+                            </div>
+                            
+                            <div className="product-description">
+                                <div className="product-name">
+                                    product name
+                                </div> 
+                                
+                                <div className="product-ratting">
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarOutlined />
+                                </div>
+                                    
+                                <div className="product-price">
+                                    200.000
+                                    <del>300.000</del>
+                                </div>
+                            </div>
+                        </div>
+
+                            <div className="product-item">
+                            <div className="product-image">
+                                <Image src={product1} preview={false}/>
+                            </div>
+                            
+                            <div className="product-description">
+                                <div className="product-name">
+                                    product name
+                                </div> 
+                                <div className="product-ratting">
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarOutlined />
+                                </div>
+                                
+                                <div className="product-price">
+                                    200.000
+                                    <del>300.000</del>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="product-item">
+                            <div className="product-image">
+                                <Image src={product1} preview={false}/>
+                            </div>
+                            
+                            <div className="product-description">
+                                <div className="product-name">
+                                    product name
+                                </div> 
+                                <div className="product-ratting">
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarOutlined />
+                                </div>
+                                
+                                <div className="product-price">
+                                    200.000
+                                    <del>300.000</del>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="product-item">
+                            <div className="product-image">
+                                <Image src={product1} preview={false}/>
+                            </div>
+                            
+                            <div className="product-description">
+                                <div className="product-name">
+                                    product name
+                                </div> 
+                                <div className="product-ratting">
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarOutlined />
+                                </div>
+                                
+                                <div className="product-price">
+                                    200.000
+                                    <del>300.000</del>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="list-product-subitem">
+                    <div className="title">
+                            Best Selling
+                    </div>
+                    <div className="list-product-item"> 
+                        <div className="product-item">
+                            <div className="product-image">
+                                <Image src={product1} preview={false}/>
+                            </div>
+                            
+                            <div className="product-description">
+                                <div className="product-name">
+                                    product name
+                                </div> 
+                                
+                                <div className="product-ratting">
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarOutlined />
+                                </div>
+                                    
+                                <div className="product-price">
+                                    200.000
+                                    <del>300.000</del>
+                                </div>
+                            </div>
+                        </div>
+
+                            <div className="product-item">
+                            <div className="product-image">
+                                <Image src={product1} preview={false}/>
+                            </div>
+                            
+                            <div className="product-description">
+                                <div className="product-name">
+                                    product name
+                                </div> 
+                                <div className="product-ratting">
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarOutlined />
+                                </div>
+                                
+                                <div className="product-price">
+                                    200.000
+                                    <del>300.000</del>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="product-item">
+                            <div className="product-image">
+                                <Image src={product1} preview={false}/>
+                            </div>
+                            
+                            <div className="product-description">
+                                <div className="product-name">
+                                    product name
+                                </div> 
+                                <div className="product-ratting">
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarOutlined />
+                                </div>
+                                
+                                <div className="product-price">
+                                    200.000
+                                    <del>300.000</del>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="product-item">
+                            <div className="product-image">
+                                <Image src={product1} preview={false}/>
+                            </div>
+                            
+                            <div className="product-description">
+                                <div className="product-name">
+                                    product name
+                                </div> 
+                                <div className="product-ratting">
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarFilled />
+                                    <StarOutlined />
+                                </div>
+                                
+                                <div className="product-price">
+                                    200.000
+                                    <del>300.000</del>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="list-product-subitem">
+                    <div className="title">
+                        Best Selling
+                    </div>
+
+                    <div className="list-product-banners">
+                        <div id="product-banner-text">
+                            Get A Discount For Weekly Offer!
+                        </div>
+                        <div className="banner-button">
+                            <Button> Shop Now</Button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
         </div>       
     ) 
 }

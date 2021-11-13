@@ -1,5 +1,5 @@
 .body-content {
-    background-color: #d9d8d88c;
+    background-color: #f8f8f8;
     .body-top {
         width: 100%;
         height: 550px;
@@ -270,15 +270,149 @@
                 .ant-btn {
                     width: 30%;
                     height: 100%;
-                    background: #679509;
+                    background: #fff;
                     font-size: large;
                     font-weight: bold;
-                }
+                    &:hover {
+                        background: #679509;
+                        color: #ece5e5;
+                    }
+                }   
             }
         }
+    }
+
+    .list-product-contains{
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 10px 20px 10px;
+        height: 620px;
+        .list-product-subitem{
+            width: 280px;
+            .title{
+                font-size: x-large;
+                font-weight: bold;
+                position: relative;
+                margin-bottom: 30px;
+                &::before{
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 3px;
+                    background: #ece5e5;
+                    clear: both;
+                    bottom: 0;
+                }
+                &::after {
+                    content: "";
+                    position: absolute;
+                    width: 70px;
+                    height: 3px;
+                    background: #679509;
+                    clear: both;
+                    display: block;
+                    bottom: 0;
+                }
+            }
+
+            .list-product-item{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .product-item {
+                    display: flex;
+                    width: 280px;
+                    height: 110px;
+                    margin-bottom: 20px;   
+                    background-color: #fff ; 
+
+                    .product-description {
+                        width: 50%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+
+                        .product-name {
+                            display: flex;
+                            justify-content: center;
+                            font-size: medium;
+                            color: #679509;
+                        }  
+                        
+                        .product-price {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-size: medium;
+                            font-weight: bold;
+                            color: #679509;
+    
+                            del {
+                                margin-left: 5px;
+                                color: #1E1D24;
+                                font-size: small;
+                            }
+                        }         
+                    }
+
+                    .product-image {
+                        width: 40%;
+                    }
+                }       
+            }
+
+            .list-product-banners{
+                background-image: url("../../asset/product-banner.jpg");
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                height: 500px;
+                padding-left: 30px;
+                #product-banner-text{
+                    margin-top: 60px;
+                    font-size: xx-large;
+                    font-weight: bold;
+                    color: #fff;
+                }
+                .banner-button {
+                    margin: 40px 0 0 30px;
+                    height: 50px;
+                    width: 500px;
+             
+                    .ant-btn {
+                        width: 30%;
+                        height: 100%;
+                        background: #679509;
+                        border: #679509;
+                        font-size: large;
+                        font-weight: bold;
+
+                        &:hover {
+                            background: #3b5702;
+                            border: #3b5702;
+                            color: #ece5e5;
+                        }
+                    }   
+                }
+            }
+
+           
+        }
+    }
+
+    .contact {
+        height: 300px;
+        background-image: url("../../asset/contact-background.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
     }
 }
 
 .anticon-star {
     margin-right: 5px;
+    color: #FC0;
+    font-size: large;
 }
