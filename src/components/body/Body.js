@@ -678,10 +678,10 @@ function Body() {
                         <div id="product-banner-text">
                             Get A Discount For Weekly Offer!
                         </div>
+
                         <div className="banner-button">
                             <Button> Shop Now</Button>
                         </div>
-                        
                     </div>
                 </div>
             </div>

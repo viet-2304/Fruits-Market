@@ -287,9 +287,8 @@
         justify-content: space-around;
         margin: 20px 10px 0 10px;
         height: 580px;
-
         .list-product-subitem{
-            width: 280px;
+            width: 20%;
             .title{
                 font-size: x-large;
                 font-weight: bold;
@@ -307,7 +306,7 @@
                 &::after {
                     content: "";
                     position: absolute;
-                    width: 70px;
+                    width: 20%;
                     height: 3px;
                     background: #679509;
                     clear: both;
@@ -380,10 +379,8 @@
                 .banner-button {
                     margin: 40px 0 0 30px;
                     height: 50px;
-                    width: 500px;
              
                     .ant-btn {
-                        width: 30%;
                         height: 100%;
                         background: #679509;
                         border: #679509;
