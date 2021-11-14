@@ -56,8 +56,8 @@ function Footer() {
                     </div>
                     <div className="description-download">
                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing.. </p>
-                       <a href="#"> <Image src={apple} preview={false}></Image> </a>
-                       <a href="#"> <Image src={google} preview={false}></Image> </a>
+                        <Image src={apple} preview={false}></Image> 
+                        <Image src={google} preview={false}></Image> 
                     </div>
                 </div>
                 
