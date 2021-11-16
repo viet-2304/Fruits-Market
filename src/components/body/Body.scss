@@ -294,6 +294,7 @@
                 font-weight: bold;
                 position: relative;
                 margin-bottom: 30px;
+
                 &::before{
                     content: "";
                     position: absolute;
@@ -370,6 +371,7 @@
                 justify-content: center;
                 height: 500px;
                 padding-left: 30px;
+
                 #product-banner-text{
                     margin-top: 60px;
                     font-size: xx-large;
@@ -395,8 +397,6 @@
                     }   
                 }
             }
-
-           
         }
     }
 
@@ -433,6 +433,7 @@
 
                 .ant-btn {
                     height: 50px;
+
                     &:first-child {
                         background-color: #679509;
                         color: #fff;
@@ -463,24 +464,29 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+
         .email-description {
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: center;
+
             .email-icon {
                 margin-left: 30px;
             }
+
             .email-text {
                 display: flex;
                 flex-direction: column;
                 margin-left: 10px;
+
                 h1 {
                     color: #fff;
                     font-size: xx-large;
                     font-weight: bold;
                     height: 30px;
                 }
+
                 p {
                     color: #fff;
                     font-size: medium;
@@ -488,6 +494,7 @@
                 }
             }
         }
+        
         .submit-email {
             display: flex;
             justify-content: center;
