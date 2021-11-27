@@ -34,7 +34,6 @@ const Countdown = () => {
         }, 1000);
     }
         useEffect(() => {
-
             startTimer()
             return () => {
                 clearInterval(interval)
