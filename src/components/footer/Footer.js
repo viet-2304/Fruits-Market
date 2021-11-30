@@ -5,17 +5,18 @@ import apple from "../../asset/apple.png"
 import google from "../../asset/google.png"
 import { Image } from 'antd'
 import { InstagramOutlined, TwitterOutlined, FacebookOutlined, SkypeOutlined } from '@ant-design/icons'
-function Footer() {
 
+function Footer() {
+    
     return (
+
         <div className="footer-contains">
             <div className="footer-top">
                 <div className="footer-top-subitem">
-                    <Image src={logo} preview={false}/>
+                    <Image src={logo} preview={false} />
                     <div className="description">
                         Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod teincididunt ut labore et
                     </div>
-
                     <div className="icon">
                         <InstagramOutlined />
                         <TwitterOutlined />
@@ -23,46 +24,41 @@ function Footer() {
                         <SkypeOutlined />
                     </div>
                 </div>
-
                 <div className="footer-top-subitem">
                     <div className="title">
                         Product Catalog
                     </div>
                     <ul>
-                        <li>Vegetable</li>
-                        <li>Fruits</li>
-                        <li>Fish & Seafood</li>
-                        <li>Health Product</li>
-                        <li>Fresh Meat</li>
+                        <li> Vegetable </li>
+                        <li> Fruits </li>
+                        <li> Fish & Seafood </li>
+                        <li> Health Product </li>
+                        <li> Fresh Meat </li>
                     </ul>
                 </div>
-
                 <div className="footer-top-subitem">
                     <div className="title">
                         Useful links
                     </div>
                     <ul>
-                        <li>About Us</li>
-                        <li>Featured Product</li>
-                        <li>Term & Conditions</li>
-                        <li>Contact Us</li>
-                        <li>Promotional Offers</li>
+                        <li> About Us </li>
+                        <li> Featured Product </li>
+                        <li> Term & Conditions </li>
+                        <li> Contact Us </li>
+                        <li> Promotional Offers </li>
                     </ul>
                 </div>
-
                 <div className="footer-top-subitem">
                     <div className="title">
                         Download Apps
                     </div>
                     <div className="description-download">
                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing.. </p>
-                        <Image src={apple} preview={false}></Image> 
-                        <Image src={google} preview={false}></Image> 
+                        <Image src={apple} preview={false} />
+                        <Image src={google} preview={false} />
                     </div>
                 </div>
-                
             </div>
-
             <div className="footer-buttom">
                 Copyright © 2021 Fruits Theme by <a href="https://fruits-market.vercel.app/"> <b> CodexUnicTheme </b> </a>
             </div>
